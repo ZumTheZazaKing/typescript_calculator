@@ -2,7 +2,7 @@ import Wrapper from "./components/Wrapper";
 import Screen from "./components/Screen";
 import ButtonBox from "./components/ButtonBox";
 import Button from "./components/Button";
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { 
   numHandleClick,
   signHandleClick,
@@ -39,11 +39,6 @@ function App(): JSX.Element {
     [1, 2, 3, "+"],
     [0, ".", "="],
   ];
-
-  useEffect(() => {
-    console.log(calc)
-  })
-  
 
   return (
     <Wrapper>
